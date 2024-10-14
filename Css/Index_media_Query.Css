@@ -1,0 +1,447 @@
+/* Extra small devices (phones, 600px and down) */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width:0px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links i {
+        display: flex;
+    }
+
+    /* Sidebar styles */
+    /* Sidebar styles */
+    .sidebar {
+        height: 100%;
+        /* Full height */
+        width: 0;
+        /* Hidden initially */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* On top */
+        top: 0;
+        right: 0;
+        /* Slide in from the right */
+        background-color: #333;
+        /* Sidebar background */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        transition: 0.5s;
+        /* Smooth transition */
+        padding-top: 60px;
+        /* Space for close button */
+    }
+
+    /* Sidebar links */
+    .
+
+    /* Sidebar styles */
+    .sidebar {
+        height: 100%;
+        /* Full height */
+        width: 0;
+        /* Hidden initially */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* On top */
+        top: 0;
+        right: 0;
+        /* Slide in from the right */
+        background-color: #333;
+        /* Sidebar background */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        transition: 0.5s;
+        /* Smooth transition */
+        padding-top: 60px;
+        /* Space for close button */
+    }
+
+    .list-links {
+        display: flex;
+    }
+
+
+    /* Sidebar links */
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* Close button inside the sidebar */
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        /* Change color for better visibility */
+    }
+
+    /* Sidebar when it's open */
+    .sidebar.open {
+        width: 250px;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    /* When the sidebar is not open */
+    .sidebar {
+        width: 0;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .Home-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Watch_vedio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Home-Photo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .Home-Photo img {
+        width: 100%;
+    }
+
+    .chefs-header {
+        width: 100%;
+    }
+
+    .chefs-Blog {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .chefs-card {
+        width: 100%;
+    }
+
+    .chefs-card:hover .chef-icons {
+        left: 90%;
+        padding: 3px;
+
+    }
+
+    .All-pics {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 25px 70px;
+    }
+
+
+
+    .Gallery-Photos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .our-Countacts {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .our-contact-details {
+        width: 100%;
+    }
+
+    .form-input form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        justify-content: center;
+    }
+
+    .form-intput-detail {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .form-intput-detail input {
+        width: 100%;
+    }
+
+    .form-input button {
+        width: 40%;
+        margin: 0px auto;
+
+    }
+
+    .overlay-Content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 20px;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-content p {
+        margin-top: 20px;
+    }
+
+    .footer-content h3 {
+        margin-top: 20px;
+    }
+
+    .footer-icons {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .footer-content-middle {
+        width: 100%;
+    }
+
+    .input-footer input {
+        width: 80%;
+    }
+
+    .Quick-links {
+        justify-content: space-between;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links i {
+        display: flex;
+    }
+
+    /* Sidebar styles */
+    /* Sidebar styles */
+    .sidebar {
+        height: 100%;
+        /* Full height */
+        width: 0;
+        /* Hidden initially */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* On top */
+        top: 0;
+        right: 0;
+        /* Slide in from the right */
+        background-color: #333;
+        /* Sidebar background */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        transition: 0.5s;
+        /* Smooth transition */
+        padding-top: 60px;
+        /* Space for close button */
+    }
+
+
+    .sidebar {
+        height: 100%;
+        /* Full height */
+        width: 0;
+        /* Hidden initially */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* On top */
+        top: 0;
+        right: 0;
+        /* Slide in from the right */
+        background-color: #333;
+        /* Sidebar background */
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        transition: 0.5s;
+        /* Smooth transition */
+        padding-top: 60px;
+        /* Space for close button */
+    }
+
+    .list-links {
+        display: flex;
+
+    }
+
+
+    /* Sidebar links */
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* Close button inside the sidebar */
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        /* Change color for better visibility */
+    }
+
+    /* Sidebar when it's open */
+    .sidebar.open {
+        width: 250px;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    /* When the sidebar is not open */
+    .sidebar {
+        width: 0;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .Home-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Watch_vedio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Home-Photo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .Home-Photo img {
+        width: 100%;
+    }
+
+    .chefs-Blog {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .chefs-card {
+        width: 47.5%;
+    }
+
+    .chefs-card:hover .chef-icons {
+        left: 86%;
+
+
+    }
+
+    .All-pics {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: space-between;
+    }
+
+
+
+    .Gallery-Photos {
+        width: 47.5%;
+    }
+
+    .overlay-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer-content {
+        width: 47.5%;
+        order: 0;
+
+    }
+
+    .footer-content-middle {
+        width: 100%;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .input-footer input {
+        width: 80%;
+    }
+
+    .footer-content-last {
+        width: 45%;
+        order: 1;
+    }
+
+    .Quick-links {
+        justify-content: space-between;
+    }
+
+
+
+
+}
